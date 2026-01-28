@@ -5,7 +5,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/resources/features",
+        features = "classpath:features",
         glue = "br.com.bergmotors.fipe.steps",
         plugin = {
                 "pretty",
