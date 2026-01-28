@@ -60,5 +60,5 @@ jobs:
         if: always()
         with:
           name: planilha-fipe-atualizada
-          path: src/fipe.xlsx  # Confirme se o caminho é esse mesmo!
+          path: '**/*.xlsx'
           retention-days: 5
