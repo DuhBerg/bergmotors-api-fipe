@@ -1,3 +1,4 @@
+package br.com.bergmotors.fipe.steps;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
