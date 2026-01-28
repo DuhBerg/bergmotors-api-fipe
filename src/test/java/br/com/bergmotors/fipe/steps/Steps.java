@@ -23,7 +23,6 @@ import static org.junit.Assert.*;
 public class Steps {
 
     private Response response;
-    private static RequestSpecification request;
     private String codigoFipe;
 
     @Before
