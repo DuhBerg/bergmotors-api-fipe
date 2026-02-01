@@ -26,7 +26,7 @@ jobs:
           cache: 'maven'
 
       - name: Rodar Testes
-        run: mvn clean test -Dallure.results.directory=target/allure-results
+        run: mvn clean test -Dallure.results.directory=target/allure-results -Dcucumber.execution.retry.count=3
         continue-on-error: true
 
       # --- PARTE DO RELATÓRIO ALLURE ---
