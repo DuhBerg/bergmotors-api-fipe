@@ -1,0 +1,75 @@
+<div>Status code 500 </div>
+
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+{
+    &quot;message&quot;: &quot;Request failed with status code 429&quot;,
+    &quot;name&quot;: &quot;AxiosError&quot;,
+    &quot;stack&quot;: &quot;AxiosError: Request failed with status code 429\n    at settle (file:///var/task/node_modules/axios/lib/core/settle.js:19:12)\n    at IncomingMessage.handleStreamEnd (file:///var/task/node_modules/axios/lib/adapters/http.js:599:11)\n    at IncomingMessage.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (file:///var/task/node_modules/axios/lib/core/Axios.js:45:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getPrice (/var/task/.next/server/pages/api/fipe/preco/v1/[fipeCode].js:196:23)\n    at async Promise.all (index 2)\n    at async Array.getFipePriceInfo (/var/task/.next/server/pages/api/fipe/preco/v1/[fipeCode].js:91:22)&quot;,
+    &quot;config&quot;: {
+        &quot;transitional&quot;: {
+            &quot;silentJSONParsing&quot;: true,
+            &quot;forcedJSONParsing&quot;: true,
+            &quot;clarifyTimeoutError&quot;: false
+        },
+        &quot;adapter&quot;: [
+            &quot;xhr&quot;,
+            &quot;http&quot;,
+            &quot;fetch&quot;
+        ],
+        &quot;transformRequest&quot;: [
+            null
+        ],
+        &quot;transformResponse&quot;: [
+            null
+        ],
+        &quot;timeout&quot;: 0,
+        &quot;xsrfCookieName&quot;: &quot;XSRF-TOKEN&quot;,
+        &quot;xsrfHeaderName&quot;: &quot;X-XSRF-TOKEN&quot;,
+        &quot;maxContentLength&quot;: -1,
+        &quot;maxBodyLength&quot;: -1,
+        &quot;env&quot;: {
+            
+        },
+        &quot;headers&quot;: {
+            &quot;Accept&quot;: &quot;application/json, text/plain, */*&quot;,
+            &quot;Content-Type&quot;: &quot;application/x-www-form-urlencoded&quot;,
+            &quot;User-Agent&quot;: &quot;axios/1.8.3&quot;,
+            &quot;Content-Length&quot;: &quot;151&quot;,
+            &quot;Accept-Encoding&quot;: &quot;gzip, compress, deflate, br&quot;
+        },
+        &quot;method&quot;: &quot;post&quot;,
+        &quot;url&quot;: &quot;https://veiculos.fipe.org.br/api/veiculos/ConsultarValorComTodosParametros&quot;,
+        &quot;data&quot;: &quot;codigoTabelaReferencia=330&amp;codigoTipoVeiculo=2&amp;anoModelo=2013&amp;codigoTipoCombustivel=1&amp;tipoVeiculo=moto&amp;modeloCodigoExterno=811093-0&amp;tipoConsulta=codigo&quot;,
+        &quot;allowAbsoluteUrls&quot;: true
+    },
+    &quot;code&quot;: &quot;ERR_BAD_REQUEST&quot;,
+    &quot;status&quot;: 429
+}    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Server: cloudflare</div>
+        <div>CF-RAY: 9c746513695582b1-IAD</div>
+        <div>Connection: keep-alive</div>
+        <div>x-matched-path: /api/fipe/preco/v1/[fipeCode]</div>
+        <div>cf-cache-status: DYNAMIC</div>
+        <div>Date: Sun, 01 Feb 2026 21:03:21 GMT</div>
+        <div>strict-transport-security: max-age=63072000</div>
+        <div>access-control-allow-origin: *</div>
+        <div>Cache-Control: max-age=0, s-maxage=86400, stale-while-revalidate, public</div>
+        <div>Nel: {&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;success_fraction&quot;:0.0,&quot;max_age&quot;:604800}</div>
+        <div>Report-To: {&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://a.nel.cloudflare.com/report/v4?s=XQTSPpzylPf7VEVGL5M8nmOmHwXzg9AkiSKzgsx5HSuMzDNxbO64L8l3yexLX7V%2BmnhY02cSR5Dq%2Bd0yIFPMg4s353ne2FLwhY%2BuWyOAipI%3D&quot;}]}</div>
+        <div>x-vercel-cache: MISS</div>
+        <div>x-vercel-id: iad1::sfo1::96bhh-1769979799599-86ab833cb139</div>
+        <div>etag: &quot;9zchnx6ilx1cr&quot;</div>
+        <div>Content-Length: 1755</div>
+        <div>alt-svc: h3=&quot;:443&quot;; ma=86400</div>
+        <div>Age: 0</div>
+        <div>Content-Type: application/json; charset=utf-8</div>
+</div>
+
+
